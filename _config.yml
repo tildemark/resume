@@ -55,26 +55,33 @@ about_content: | # this will include new lines to allow paragraphs
   #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Education
+  - title: Projects
     layout: list
     content:
-      - layout: left
-        title: University of the Philippines Open University (UPOU)
-        sub_title: Master of Information Systems (MIS)
-        caption: credit units
+      - layout: right
+        title: GreenStone Farm Credit Services
+        sub_title: Service Desk Intern
+        caption: May 2023 - August 2023
+        link: https://www.greenstonefcs.com/
         quote: >
-          Los Baños, Laguna 
+          East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Advanced study in information systems management, focusing on strategic IT planning and data management.
+          Managed and provided daily operations of troubleshooting calls, offering exceptional technical assistance to multiple departments in 35 locations throughout Michigan and Northeast Wisconsin.
+          Organized and executed a large-scale phone replacement project for 120 employees by preplanning and analyzing logistics, confirming a seamless transition and minimal disruption to workflow during the phone upgrade.
+          Demonstrated proficiency in operating and bolstering critical IT infrastructure, including Azure Active Directory, Secret Server, and Office 365 platforms, assuring access and security controls for a large user base.
 
-      - layout: left
-        title: Notre Dame of Dadiangas University (NDDU)
-        sub_title: Master of Business Administration (MBA)
-        caption: credit units
+      - layout: right
+        title: MSU College of Engineering
+        sub_title: Undergraduate Researcher
+        caption: September 2022 - Present
+        link: https://slim-msu.github.io/
         quote: >
-          Marist Ave, General Santos City 
+          East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Developed business acumen in areas such as financial analysis, strategic planning, and organizational leadership.
+          Selected for a highly selective program dedicated to the top 1% of incoming freshmen to conduct undergraduate research in a group of like-minded students, focusing on computational imaging and machine learning subjects.
+          Analyze EEG data for a mantra meditation study with 23 subjects, revealing improved cognition in young adults and resulting in the submission and acceptance of an abstract to the Society for Neuroscience.
+          Created and now survey the research team's dynamic website, disseminating complex technical concepts to a large audience, promoting 25 monthly contact submissions, and blocking 80% of reCAPTCHA suspicious requests.
+
 
   - title: Experience
     layout: list
@@ -102,43 +109,36 @@ content:
           Selected for a highly selective program dedicated to the top 1% of incoming freshmen to conduct undergraduate research in a group of like-minded students, focusing on computational imaging and machine learning subjects.
           Analyze EEG data for a mantra meditation study with 23 subjects, revealing improved cognition in young adults and resulting in the submission and acceptance of an abstract to the Society for Neuroscience.
           Created and now survey the research team's dynamic website, disseminating complex technical concepts to a large audience, promoting 25 monthly contact submissions, and blocking 80% of reCAPTCHA suspicious requests.
-  - title: Languages and Frameworks
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      <i class="devicon-vscode-plain colored"></i>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stata/stata-original-wordmark.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jekyll/jekyll-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cosmosdb/cosmosdb-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/splunk/splunk-original-wordmark.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" width='50' height='50'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" width='50' height='50'/>
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: University of the Philippines Open University (UPOU)
+        sub_title: Master of Information Systems (MIS)
+        caption: credit units
+        quote: >
+          Los Baños, Laguna 
+        description: | # this will include new lines to allow paragraphs
+          Advanced study in information systems management, focusing on strategic IT planning and data management.
+
+      - layout: left
+        title: Notre Dame of Dadiangas University (NDDU)
+        sub_title: Master of Business Administration (MBA)
+        caption: credit units
+        quote: >
+          General Santos City
+        description: | # this will include new lines to allow paragraphs
+          Developed business acumen in areas such as financial analysis, strategic planning, and organizational leadership.
+
+      - layout: left
+        title: Mindanao Polytechnic State College (MPSC)
+        sub_title: Bachelor of Science in Computer Engineering 
+        caption: credit units
+        quote: >
+          Cagayan de Oro City
+        description: | # this will include new lines to allow paragraphs
+          Gained a strong foundation in computer hardware and software principles, including network design and systems architecture.
 
 # Footer
 footer_show_references: true
