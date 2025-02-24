@@ -63,51 +63,47 @@ content:
         sub_title: as Project Manager
         caption: January 2019 - Present
         link: abas.avegabros.org
-        additional_links:
-          - title:  ABAS ePortal
-            icon: fab fa-github
-            url: eportal.avegabros.org
+        #additional_links:
+        #  - title:  ABAS ePortal
+        #    icon: fab fa-github
+        #    url: eportal.avegabros.org
         # quote: >
         #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
           Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
 
-      - layout: right
-        title: STARS - Ship Tracking And Reporting System
+      - layout: left
+        title: STARS
         sub_title: as Project Manager
         caption: July 2023 - Present
         link: stars.avegabros.org
         #quote: >
         #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Spearheaded the development and implementation of STARS, a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, solar renewable energy, GPS IoT devices, and CCTV cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
+          Spearheaded the development and implementation of Ship Tracking And Reporting System (STARS), a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, solar renewable energy, GPS IoT devices, and CCTV cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
 
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: GreenStone Farm Credit Services
-        sub_title: Service Desk Intern
-        caption: May 2023 - August 2023
-        link: https://www.greenstonefcs.com/
+      - layout: left
+        title: Avega Bros Integrated Shipping Corp
+        sub_title: Head of IT
+        caption: January 2019 - Present
+        link: www.avegabros.com
         quote: >
-          East Lansing, MI
+          Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          Managed and provided daily operations of troubleshooting calls, offering exceptional technical assistance to multiple departments in 35 locations throughout Michigan and Northeast Wisconsin.
-          Organized and executed a large-scale phone replacement project for 120 employees by preplanning and analyzing logistics, confirming a seamless transition and minimal disruption to workflow during the phone upgrade.
-          Demonstrated proficiency in operating and bolstering critical IT infrastructure, including Azure Active Directory, Secret Server, and Office 365 platforms, assuring access and security controls for a large user base.
+          As Head of IT, I led the strategic planning, implementation, and management of all IT operations for both land-based and maritime environments. This included overseeing the development and deployment of a comprehensive in-house ERP system (ABAS), integrating core business functions such as HR, finance, logistics, and operations. I also spearheaded the implementation of innovative technologies, including Starlink internet for vessels, renewable solar power systems, and advanced CCTV cargo monitoring, to enhance operational efficiency and security. Additionally, I served as Data Protection Officer, ensuring compliance with data privacy regulations. My key responsibilities encompassed network infrastructure management, server administration, cybersecurity, IT procurement, and team leadership.
 
-      - layout: right
-        title: MSU College of Engineering
-        sub_title: Undergraduate Researcher
-        caption: September 2022 - Present
-        link: https://slim-msu.github.io/
+      - layout: left
+        title: Avega Bros Integrated Shipping Corp
+        sub_title: Data Protection Officer (DPO)
+        caption: April 2019 - Present
+        link: www.avegabros.com
         quote: >
-          East Lansing, MI
+          Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          Selected for a highly selective program dedicated to the top 1% of incoming freshmen to conduct undergraduate research in a group of like-minded students, focusing on computational imaging and machine learning subjects.
-          Analyze EEG data for a mantra meditation study with 23 subjects, revealing improved cognition in young adults and resulting in the submission and acceptance of an abstract to the Society for Neuroscience.
-          Created and now survey the research team's dynamic website, disseminating complex technical concepts to a large audience, promoting 25 monthly contact submissions, and blocking 80% of reCAPTCHA suspicious requests.
+          As Data Protection Officer, I ensured compliance with national and international data privacy regulations, including the Philippines' Data Privacy Act. I developed and implemented data protection policies and procedures, conducted privacy impact assessments and audits, and provided training to employees on data privacy best practices. I also managed data subject requests and collaborated with stakeholders to integrate data privacy considerations into business processes and systems.
 
   - title: Education
     layout: list
