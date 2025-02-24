@@ -40,7 +40,7 @@ facebook_username: tildemark
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
   Results-driven IT leader with extensive experience in maritime and land-based technology deployments at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IOT, and renewable energy solutions. Dual role as Data Protection Officer, ensuring data privacy compliance. 
   
