@@ -58,30 +58,29 @@ content:
   - title: Projects
     layout: list
     content:
-      - layout: right
-        title: GreenStone Farm Credit Services
-        sub_title: Service Desk Intern
-        caption: May 2023 - August 2023
-        link: https://www.greenstonefcs.com/
-        quote: >
-          East Lansing, MI
+      - layout: left
+        title: ABAS In-House ERP Development
+        sub_title: Role: Project Manager
+        caption: January 2019 - Present
+        link: abas.avegabros.org
+        additional_links:
+          - title:  ABAS ePortal
+            icon: fab fa-github
+            url: eportal.avegabros.org
+        # quote: >
+        #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Managed and provided daily operations of troubleshooting calls, offering exceptional technical assistance to multiple departments in 35 locations throughout Michigan and Northeast Wisconsin.
-          Organized and executed a large-scale phone replacement project for 120 employees by preplanning and analyzing logistics, confirming a seamless transition and minimal disruption to workflow during the phone upgrade.
-          Demonstrated proficiency in operating and bolstering critical IT infrastructure, including Azure Active Directory, Secret Server, and Office 365 platforms, assuring access and security controls for a large user base.
+          Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
 
       - layout: right
-        title: MSU College of Engineering
-        sub_title: Undergraduate Researcher
-        caption: September 2022 - Present
-        link: https://slim-msu.github.io/
-        quote: >
-          East Lansing, MI
+        title: STARS - Ship Tracking And Reporting System
+        sub_title: Role: Project Manager
+        caption: July 2023 - Present
+        link: stars.avegabros.org
+        #quote: >
+        #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Selected for a highly selective program dedicated to the top 1% of incoming freshmen to conduct undergraduate research in a group of like-minded students, focusing on computational imaging and machine learning subjects.
-          Analyze EEG data for a mantra meditation study with 23 subjects, revealing improved cognition in young adults and resulting in the submission and acceptance of an abstract to the Society for Neuroscience.
-          Created and now survey the research team's dynamic website, disseminating complex technical concepts to a large audience, promoting 25 monthly contact submissions, and blocking 80% of reCAPTCHA suspicious requests.
-
+          Spearheaded the development and implementation of STARS, a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, solar renewable energy, GPS IoT devices, and CCTV cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
 
   - title: Experience
     layout: list
