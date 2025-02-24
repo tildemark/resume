@@ -1,41 +1,35 @@
 # Site
-repository: tildemark/resume
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
-name: Alfredo Sanchez Jr.
-title: Head of IT
-email: alfredo@sanchez.ph
-website: www.sanchez.ph
+name: Alfredo Sanchez, Jr.
+title: Head of IT @ Avega Bros
+email: derf@sanchez.ph
+# email_title: Email (Email title override)
+phone: (917) 702-5960
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: tildemark
-github_username:  tildemark
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-facebook_username: tildemark
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: tildemark
 linkedin_username: tildemark
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: tildemark
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+facebook_username: tildemark
 
 # Additional icon links
-additional_links:
-# - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -45,113 +39,114 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Results-driven IT leader with extensive experience in maritime and land-based technology deployments at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IOT, and renewable energy solutions. Dual role as Data Protection Officer, ensuring data privacy compliance. 
   
   I am most skilled in: <mark>ERP</mark>, <mark>IOT</mark> and <mark>Project Management</mark>
 
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  #   - Lists
+  #   - Tables
+  #   - <a href="google.com">Links</a>
+  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: ABAS In-House ERP Development
-        link: abas.avegabros.org
-        # link_text: Project Website
-        additional_links:
-          - title:  ABAS ePortal
-            icon: fab fa-github
-            url: eportal.avegabros.org
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
-
-      - layout: top-middle
-        title: ABAS In-House ERP Development
-        link: abas.avegabros.org
-        # link_text: Project Website
-        additional_links:
-          - title:  ABAS ePortal
-            icon: fab fa-github
-            url: eportal.avegabros.org
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
-
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Avega Bros Integrated Shipping Corp
-        link: avegabros.com
-        # link_text: boringcompany.com
-        sub_title: Head of IT
-        caption: February 2019 - Present
-        # quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Led and managed all aspects of the IT department, encompassing strategic planning, project implementation, and daily operations for both land-based and maritime environments.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: University of the Philippines
-        caption: credit units
+        title: University of the Philippines Open University (UPOU)
         sub_title: Master of Information Systems (MIS)
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        caption: credit units
+        quote: >
+          Los Baños, Laguna 
         description: | # this will include new lines to allow paragraphs
           Advanced study in information systems management, focusing on strategic IT planning and data management.
 
       - layout: left
-        title: Notre Dame of Dadiangas
-        caption: credit units
+        title: Notre Dame of Dadiangas University (NDDU)
         sub_title: Master of Business Administration (MBA)
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        caption: credit units
+        quote: >
+          Marist Ave, General Santos City 
         description: | # this will include new lines to allow paragraphs
           Developed business acumen in areas such as financial analysis, strategic planning, and organizational leadership.
 
-      - layout: left
-        title: Mindanao Polytechnic State College
-        caption: Bachelors Degree - 1994-2000
-        sub_title: Bachelor of Science in Computer Engineering
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: GreenStone Farm Credit Services
+        sub_title: Service Desk Intern
+        caption: May 2023 - August 2023
+        link: https://www.greenstonefcs.com/
+        quote: >
+          East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Gained a strong foundation in computer hardware and software principles, including network design and systems architecture.
+          Managed and provided daily operations of troubleshooting calls, offering exceptional technical assistance to multiple departments in 35 locations throughout Michigan and Northeast Wisconsin.
+          Organized and executed a large-scale phone replacement project for 120 employees by preplanning and analyzing logistics, confirming a seamless transition and minimal disruption to workflow during the phone upgrade.
+          Demonstrated proficiency in operating and bolstering critical IT infrastructure, including Azure Active Directory, Secret Server, and Office 365 platforms, assuring access and security controls for a large user base.
 
-
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Gaming
-#      - Knitting
-#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-#
-#      Look at this cool image  
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: right
+        title: MSU College of Engineering
+        sub_title: Undergraduate Researcher
+        caption: September 2022 - Present
+        link: https://slim-msu.github.io/
+        quote: >
+          East Lansing, MI
+        description: | # this will include new lines to allow paragraphs
+          Selected for a highly selective program dedicated to the top 1% of incoming freshmen to conduct undergraduate research in a group of like-minded students, focusing on computational imaging and machine learning subjects.
+          Analyze EEG data for a mantra meditation study with 23 subjects, revealing improved cognition in young adults and resulting in the submission and acceptance of an abstract to the Society for Neuroscience.
+          Created and now survey the research team's dynamic website, disseminating complex technical concepts to a large audience, promoting 25 monthly contact submissions, and blocking 80% of reCAPTCHA suspicious requests.
+  - title: Languages and Frameworks
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <i class="devicon-vscode-plain colored"></i>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stata/stata-original-wordmark.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jekyll/jekyll-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cosmosdb/cosmosdb-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/splunk/splunk-original-wordmark.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" width='50' height='50'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" width='50' height='50'/>
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: tildemark/resume
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -159,3 +154,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
