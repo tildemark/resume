@@ -105,6 +105,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           As Data Protection Officer, I ensured compliance with national and international data privacy regulations, including the Philippines' Data Privacy Act. I developed and implemented data protection policies and procedures, conducted privacy impact assessments and audits, and provided training to employees on data privacy best practices. I also managed data subject requests and collaborated with stakeholders to integrate data privacy considerations into business processes and systems.
 
+      - layout: left
+        title: A Brown Company, Inc. 
+        sub_title: Assistant Manager 
+        caption: October 2015 - January 2019
+        link: www.abrown.ph
+        #quote: >
+        #  Consolacion, Cebu
+        description: | # this will include new lines to allow paragraphs
+          Started as a Head Programmer, developing and implementing an ERP system using Java. Within a year, I was promoted to Assistant Manager and functioned as the de facto IT Manager, leading the department in the absence of a direct manager. My responsibilities included strategic IT planning, project management, and operational oversight, all within the context of the real estate industry. This involved managing IT infrastructure, overseeing software development, ensuring data security, and collaborating with stakeholders to align IT solutions with business objectives.
   - title: Education
     layout: list
     content:
