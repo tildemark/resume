@@ -120,7 +120,7 @@ content:
         # quote: >
         #  Los Baños, Laguna 
         description: | # this will include new lines to allow paragraphs
-          Advanced study in information systems management, focusing on strategic IT planning and data management.
+          Master of Science in Information Systems program focused on preparing for leadership roles in IT management. Integrated business principles with advanced IT training, developing expertise in database management, software development, cybersecurity, data analytics, and project management.
 
       - layout: left
         title: Notre Dame of Dadiangas University (NDDU)
@@ -129,7 +129,7 @@ content:
         #quote: >
         #  General Santos City
         description: | # this will include new lines to allow paragraphs
-          Developed business acumen in areas such as financial analysis, strategic planning, and organizational leadership.
+          Master of Business Administration program provided a comprehensive understanding of business principles and practices, including finance, accounting, marketing, operations, and strategic management. Developed leadership skills and decision-making abilities in a business context.
 
       - layout: left
         title: Mindanao Polytechnic State College (MPSC)
@@ -138,7 +138,7 @@ content:
         #quote: >
         #  Cagayan de Oro City
         description: | # this will include new lines to allow paragraphs
-          Gained a strong foundation in computer hardware and software principles, including network design and systems architecture.
+          Bachelor of Science in Computer Engineering program integrating electrical engineering and computer science principles, with a focus on the design, development, implementation, and maintenance of both hardware and software components. The curriculum encompassed mathematics, science, computer programming, circuit design, computer architecture, embedded systems, digital signal processing, network systems, and artificial intelligence. The program emphasized analytical skills, critical thinking, problem-solving, and communication skills to develop comprehensive technological solutions.
 
 # Footer
 footer_show_references: true
