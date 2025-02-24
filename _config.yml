@@ -42,9 +42,9 @@ facebook_username: tildemark
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Results-driven IT leader with extensive experience in maritime and land-based technology deployments at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IOT, and renewable energy solutions. Dual role as Data Protection Officer, ensuring data privacy compliance. 
-  
-  I am most skilled in: <mark>ERP</mark>, <mark>IOT</mark> and <mark>Project Management</mark>
+  Results-driven and detail-oriented IT leader with extensive experience in maritime and land-based technology deployments, most recently at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IOT, and renewable energy solutions. Adept at troubleshooting and resolving intricate technical issues to maintain optimal system performance and provide exceptional support.  Possessing a strong foundation in network and server management, I am eager to leverage my skills and contribute to a dynamic team environment.  Dual role as Data Protection Officer, ensuring data privacy compliance. Committed to continuous learning and expanding my IT expertise to deliver effective and innovative solutions.  
+
+  I am most skilled in: <mark>ERP</mark>, <mark>IOT</mark>, <mark>Project Management</mark>, and Data Privacy.
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -114,6 +114,7 @@ content:
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
           Started as a Head Programmer, developing and implementing an ERP system using Java. Within a year, I was promoted to Assistant Manager and functioned as the de facto IT Manager, leading the department in the absence of a direct manager. My responsibilities included strategic IT planning, project management, and operational oversight, all within the context of the real estate industry. This involved managing IT infrastructure, overseeing software development, ensuring data security, and collaborating with stakeholders to align IT solutions with business objectives.
+
   - title: Education
     layout: list
     content:
