@@ -60,9 +60,13 @@ content:
     content:
       - layout: left
         title: ABAS In-House ERP Development
-        sub_title: Role: Project Manager
+        sub_title: as Project Manager
         caption: January 2019 - Present
         link: abas.avegabros.org
+        additional_links:
+          - title:  ABAS ePortal
+            icon: fab fa-github
+            url: eportal.avegabros.org
         # quote: >
         #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
@@ -70,7 +74,7 @@ content:
 
       - layout: right
         title: STARS - Ship Tracking And Reporting System
-        sub_title: Role: Project Manager
+        sub_title: as Project Manager
         caption: July 2023 - Present
         link: stars.avegabros.org
         #quote: >
