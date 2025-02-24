@@ -42,7 +42,7 @@ facebook_username: tildemark
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Results-driven and detail-oriented IT leader with extensive experience in maritime and land-based technology deployments, most recently at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IOT, and renewable energy solutions. Adept at troubleshooting and resolving intricate technical issues to maintain optimal system performance and provide exceptional support.  Possessing a strong foundation in network and server management, I am eager to leverage my skills and contribute to a dynamic team environment.  Dual role as Data Protection Officer, ensuring data privacy compliance. Committed to continuous learning and expanding my IT expertise to deliver effective and innovative solutions.  
+  Results-driven and detail-oriented IT leader with extensive experience in maritime and land-based technology deployments, most recently at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IoT, and renewable energy solutions. Adept at troubleshooting and resolving intricate technical issues to maintain optimal system performance and provide exceptional support.  Possessing a strong foundation in network and server management, I am eager to leverage my skills and contribute to a dynamic team environment.  Dual role as Data Protection Officer, ensuring data privacy compliance. Committed to continuous learning and expanding my IT expertise to deliver effective and innovative solutions.  
 
   I am most skilled in: <mark>ERP</mark>, <mark>IOT</mark>, <mark>Project Management</mark>, and Data Privacy.
 
@@ -80,7 +80,7 @@ content:
         #quote: >
         #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Spearheaded the development and implementation of Ship Tracking And Reporting System (STARS), a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, solar renewable energy, GPS IoT devices, and CCTV cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
+          Spearheaded the development and implementation of Ship Tracking And Reporting System (STARS), a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, <mark>solar renewable energy</mark>, <mark>GPS</mark> <mark>IoT</mark> devices, and <mark>CCTV</mark> cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
 
   - title: Experience
     layout: list
@@ -93,7 +93,7 @@ content:
         #quote: >
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          As Head of IT, I led the strategic planning, implementation, and management of all IT operations for both land-based and maritime environments. This included overseeing the development and deployment of a comprehensive in-house ERP system (ABAS), integrating core business functions such as HR, finance, logistics, and operations. I also spearheaded the implementation of innovative technologies, including Starlink internet for vessels, renewable solar power systems, and advanced CCTV cargo monitoring, to enhance operational efficiency and security. Additionally, I served as Data Protection Officer, ensuring compliance with data privacy regulations. My key responsibilities encompassed network infrastructure management, server administration, cybersecurity, IT procurement, and team leadership.
+          As Head of IT, I led the strategic planning, implementation, and management of all IT operations for both land-based and maritime environments. This included overseeing the development and deployment of a comprehensive in-house <mark>ERP</mark> system (ABAS), integrating core business functions such as HR, finance, logistics, and operations. I also spearheaded the implementation of innovative technologies, including <mark>Starlink</mark> internet for vessels, <mark>renewable solar power systems</mark>, and advanced <mark>CCTV</mark> cargo monitoring, to enhance operational efficiency and security. Additionally, I served as <mark>Data Protection Officer</mark>, ensuring compliance with data privacy regulations. My key responsibilities encompassed network infrastructure management, server administration, cybersecurity, IT procurement, and team leadership.
 
       - layout: left
         title: Avega Bros Integrated Shipping Corp
@@ -113,7 +113,7 @@ content:
         #quote: >
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          Started as a Head Programmer, developing and implementing an ERP system using Java. Within a year, I was promoted to Assistant Manager and functioned as the de facto IT Manager, leading the department in the absence of a direct manager. My responsibilities included strategic IT planning, project management, and operational oversight, all within the context of the real estate industry. This involved managing IT infrastructure, overseeing software development, ensuring data security, and collaborating with stakeholders to align IT solutions with business objectives.
+          Started as a Head Programmer, developing and implementing an <mark>ERP</mark> system using <mark>Java</mark>. Within a year, I was promoted to Assistant Manager and functioned as the de facto IT Manager, leading the department in the absence of a direct manager. My responsibilities included strategic IT planning, project management, and operational oversight, all within the context of the <mark>real estate</mark> industry. This involved managing IT infrastructure, overseeing software development, ensuring data security, and collaborating with stakeholders to align IT solutions with business objectives.
 
   - title: Education
     layout: list
