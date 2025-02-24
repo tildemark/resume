@@ -90,8 +90,8 @@ content:
         sub_title: Head of IT
         caption: January 2019 - Present
         link: www.avegabros.com
-        quote: >
-          Consolacion, Cebu
+        #quote: >
+        #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
           As Head of IT, I led the strategic planning, implementation, and management of all IT operations for both land-based and maritime environments. This included overseeing the development and deployment of a comprehensive in-house ERP system (ABAS), integrating core business functions such as HR, finance, logistics, and operations. I also spearheaded the implementation of innovative technologies, including Starlink internet for vessels, renewable solar power systems, and advanced CCTV cargo monitoring, to enhance operational efficiency and security. Additionally, I served as Data Protection Officer, ensuring compliance with data privacy regulations. My key responsibilities encompassed network infrastructure management, server administration, cybersecurity, IT procurement, and team leadership.
 
@@ -100,8 +100,8 @@ content:
         sub_title: Data Protection Officer (DPO)
         caption: April 2019 - Present
         link: www.avegabros.com
-        quote: >
-          Consolacion, Cebu
+        #quote: >
+        #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
           As Data Protection Officer, I ensured compliance with national and international data privacy regulations, including the Philippines' Data Privacy Act. I developed and implemented data protection policies and procedures, conducted privacy impact assessments and audits, and provided training to employees on data privacy best practices. I also managed data subject requests and collaborated with stakeholders to integrate data privacy considerations into business processes and systems.
 
