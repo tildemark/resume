@@ -115,28 +115,28 @@ content:
     content:
       - layout: left
         title: University of the Philippines Open University (UPOU)
-        sub_title: Master of Information Systems (MIS)
-        caption: credit units
-        quote: >
-          Los Baños, Laguna 
+        sub_title: Master of Information Systems (MIS) - credit units
+        caption: Los Baños, Laguna
+        # quote: >
+        #  Los Baños, Laguna 
         description: | # this will include new lines to allow paragraphs
           Advanced study in information systems management, focusing on strategic IT planning and data management.
 
       - layout: left
         title: Notre Dame of Dadiangas University (NDDU)
-        sub_title: Master of Business Administration (MBA)
-        caption: credit units
-        quote: >
-          General Santos City
+        sub_title: Master of Business Administration (MBA) - credit units
+        caption: General Santos City
+        #quote: >
+        #  General Santos City
         description: | # this will include new lines to allow paragraphs
           Developed business acumen in areas such as financial analysis, strategic planning, and organizational leadership.
 
       - layout: left
         title: Mindanao Polytechnic State College (MPSC)
         sub_title: Bachelor of Science in Computer Engineering 
-        caption: credit units
-        quote: >
-          Cagayan de Oro City
+        caption: Cagayan de Oro City
+        #quote: >
+        #  Cagayan de Oro City
         description: | # this will include new lines to allow paragraphs
           Gained a strong foundation in computer hardware and software principles, including network design and systems architecture.
 
