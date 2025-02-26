@@ -55,33 +55,6 @@ about_content: | # this will include new lines to allow paragraphs
   #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: left
-        title: ABAS In-House ERP Development
-        sub_title: as Project Manager
-        caption: January 2019 - Present
-        link: abas.avegabros.org
-        #additional_links:
-        #  - title:  ABAS ePortal
-        #    icon: fab fa-github
-        #    url: eportal.avegabros.org
-        # quote: >
-        #  East Lansing, MI
-        description: | # this will include new lines to allow paragraphs
-          Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
-
-      - layout: left
-        title: STARS
-        sub_title: as Project Manager
-        caption: July 2023 - Present
-        link: stars.avegabros.org
-        #quote: >
-        #  East Lansing, MI
-        description: | # this will include new lines to allow paragraphs
-          Spearheaded the development and implementation of Ship Tracking And Reporting System (STARS), a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, <mark>solar renewable energy</mark>, <mark>GPS</mark> <mark>IoT</mark> devices, and <mark>CCTV</mark> cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
-
   - title: Experience
     layout: list
     content:
@@ -144,6 +117,33 @@ content:
         #  Cagayan de Oro City
         description: | # this will include new lines to allow paragraphs
           Bachelor of Science in Computer Engineering program integrating electrical engineering and computer science principles, with a focus on the design, development, implementation, and maintenance of both hardware and software components. The curriculum encompassed mathematics, science, computer programming, circuit design, computer architecture, embedded systems, digital signal processing, network systems, and artificial intelligence. The program emphasized analytical skills, critical thinking, problem-solving, and communication skills to develop comprehensive technological solutions.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: ABAS In-House ERP Development
+        sub_title: as Project Manager
+        caption: January 2019 - Present
+        link: abas.avegabros.org
+        #additional_links:
+        #  - title:  ABAS ePortal
+        #    icon: fab fa-github
+        #    url: eportal.avegabros.org
+        # quote: >
+        #  East Lansing, MI
+        description: | # this will include new lines to allow paragraphs
+          Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
+
+      - layout: left
+        title: STARS
+        sub_title: as Project Manager
+        caption: July 2023 - Present
+        link: stars.avegabros.org
+        #quote: >
+        #  East Lansing, MI
+        description: | # this will include new lines to allow paragraphs
+          Spearheaded the development and implementation of Ship Tracking And Reporting System (STARS), a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, <mark>solar renewable energy</mark>, <mark>GPS</mark> <mark>IoT</mark> devices, and <mark>CCTV</mark> cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
 
 # Footer
 footer_show_references: true
