@@ -184,11 +184,11 @@ content:
   - title: Skills
     layout: list
     content:
-      - layout: left
-        title: ABAS In-House ERP Development
-        sub_title: as Project Manager
-        caption: January 2019 - Present
-        link: abas.avegabros.org
+      - layout: top-middle
+        # title: ABAS In-House ERP Development
+        # sub_title: as Project Manager
+        # caption: January 2019 - Present
+        # link: abas.avegabros.org
         #additional_links:
         #  - title:  ABAS ePortal
         #    icon: fab fa-github
@@ -196,7 +196,7 @@ content:
         # quote: >
         #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
-          Driving the creation of ABAS, a robust <mark>ERP</mark> platform designed to automate and integrate all core business processes at Avega Bros. This project involves managing a development team and overseeing the implementation of diverse modules (accounting, HR, inventory, etc.). Innovation is furthered through the deployment of ePortal kiosks, providing mobile ERP access to employees in challenging environments, such as maritime vessels.
+          **IT Management:**
 
 # Footer
 footer_show_references: true
