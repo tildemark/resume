@@ -3,7 +3,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: Alfredo Sanchez, Jr.
@@ -42,7 +42,7 @@ gtag: "G-53QW0VF81R"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-A highly experienced and results-oriented Head of IT with over 20 years of expertise across diverse industries, including maritime cargo transport, real estate, and digital marketing. Proven ability to lead and manage IT departments, including ERP implementations (both in-house and vendor-based), infrastructure development, cybersecurity, data privacy compliance, and innovative technology solutions. Experienced in cloud technologies (AWS, Azure, Google Cloud, Alibaba Cloud), Plesk, and WHM for website hosting, data management, and server administration. Strong leadership background, starting with managing a global SEO team and progressing to leading a complete IT department. Background in computer engineering (hardware and software) with graduate-level coursework in business administration (MBA) and management information systems (MIS). Adept at bridging the gap between technical and business requirements to drive successful outcomes.
+  A highly experienced and results-oriented Head of IT with over 20 years of expertise across diverse industries, including maritime cargo transport, real estate, and digital marketing. Proven ability to lead and manage IT departments, including ERP implementations (both in-house and vendor-based), infrastructure development, cybersecurity, data privacy compliance, and innovative technology solutions. Experienced in cloud technologies (AWS, Azure, Google Cloud, Alibaba Cloud), Plesk, and WHM for website hosting, data management, and server administration. Strong leadership background, starting with managing a global SEO team and progressing to leading a complete IT department. Background in computer engineering (hardware and software) with graduate-level coursework in business administration (MBA) and management information systems (MIS). Adept at bridging the gap between technical and business requirements to drive successful outcomes.
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
