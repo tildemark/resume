@@ -185,10 +185,10 @@ content:
   - title: Skills
     layout: list
     content:
-      - layout: top-middle
+      - layout: right
         # title: ABAS In-House ERP Development
-        # sub_title: as Project Manager
-        # caption: January 2019 - Present
+        sub_title: Languages and Technologies
+        caption: ERP, React, Next.js, PHP, CodeIgniter, Python
         # link: abas.avegabros.org
         #additional_links:
         #  - title:  ABAS ePortal
