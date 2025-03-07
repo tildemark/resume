@@ -185,10 +185,10 @@ content:
   - title: Skills
     layout: list
     content:
-      - layout: right
+      - layout: top-right
         # title: ABAS In-House ERP Development
         sub_title: Languages and Technologies
-        caption: ERP, React, Next.js, PHP, CodeIgniter, Python
+        caption: ERP, React, Next.js, PHP, CodeIgniter, Python, Java, MySQL, PostgreSQL, AWS, Google Cloud, Azure, CCTV, GPS, IoT, Solar Renewable Energy, ERP
         # link: abas.avegabros.org
         #additional_links:
         #  - title:  ABAS ePortal
