@@ -65,16 +65,16 @@ content:
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
           * Lead and manage the entire IT department, including strategic planning, budget management, personnel management (hiring, training, performance reviews), and technology procurement.
-          * Oversaw the development, implementation, and maintenance of all IT systems, including the core ERP system (accessible on both PC and mobile devices).
-          * Spearheaded the in-house development of IoT devices to augment the ERP system, such as:
+          * Oversaw the development, implementation, and maintenance of all IT systems, including the core <mark>ERP</mark> system (accessible on both PC and mobile devices).
+          * Spearheaded the in-house development of <mark>IoT</mark> devices to augment the ERP system, such as:
             * Biometric authentication systems
-            * GPS tracking systems for company-owned vessels
+            * <mark>GPS</mark> tracking systems for company-owned vessels
             * Ruggedized kiosks for employee workstations in hazardous or remote locations.
           * Managed the company's IT infrastructure, including:
             * Network connectivity (wireless connections to remote offices, including tower construction and maintenance)
-            * CCTV security systems
-            * Renewable energy solutions (solar power implementation)
-          * Ensured data privacy compliance in accordance with RA 10173 and other relevant regulations.
+            * <mark>CCTV</mark> security systems
+            * <mark>Renewable energy</mark> solutions (solar power implementation)
+          * Ensured <mark>data privacy compliance</mark> in accordance with RA 10173 and other relevant regulations.
 
       - layout: left
         title: Avega Bros Integrated Shipping Corp
@@ -108,7 +108,7 @@ content:
         #quote: >
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          As a Remote Project Manager, I collaborated with US-based clients on a variety of website development projects. My responsibilities spanned the entire project lifecycle, from initial concept and requirements gathering to development, testing, deployment, and ongoing maintenance. I have extensive experience deploying WordPress websites, including plugin development and customization to meet specific client needs. I successfully managed and launched several websites in succession, ensuring timely delivery and client satisfaction. I also gained experience with AWS services, specifically S3 and EC2, for website hosting and data management.  Additionally, I am proficient in using Plesk and WHM for server management and website administration. I managed project scopes, timelines, and budgets, ensuring projects were delivered on time and within budget. Effective communication with clients and development teams was crucial to my success, and I provided regular updates, addressed any concerns, and facilitated collaboration. 
+          As a Remote Project Manager, I collaborated with US-based clients on a variety of website development projects. My responsibilities spanned the entire project lifecycle, from initial concept and requirements gathering to development, testing, deployment, and ongoing maintenance. I have extensive experience deploying WordPress websites, including plugin development and customization to meet specific client needs. I successfully managed and launched several websites in succession, ensuring timely delivery and client satisfaction. I also gained experience with <mark>AWS</mark> services, specifically <mark>S3</mark> and <mark>EC2</mark>, for website hosting and data management.  Additionally, I am proficient in using <mark>Plesk</mark> and <mark>WHM</mark> for server management and website administration. I managed project scopes, timelines, and budgets, ensuring projects were delivered on time and within budget. Effective communication with clients and development teams was crucial to my success, and I provided regular updates, addressed any concerns, and facilitated collaboration. 
 
       - layout: left
         title: Hubport Interactive
@@ -119,9 +119,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Started my management career leading and managing a team of SEO specialists across three shifts to provide 24/7 coverage for clients in Australia, the US, and Canada.  Developed and implemented comprehensive SEO strategies from the ground up, including:
           * Website assessment and analysis.
-          * Keyword research and strategy development.
-          * On-site optimization (technical SEO, content optimization).
-          * Off-site optimization (link building, content marketing).
+          * <mark>Keyword research</mark> and strategy development.
+          * <mark>On-site optimization</mark> (technical SEO, content optimization).
+          * <mark>Off-site optimization</mark> (link building, content marketing).
           * Performance tracking and reporting.
 
   - title: Education
