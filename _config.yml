@@ -84,7 +84,12 @@ content:
         #quote: >
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          As Data Protection Officer, I ensured compliance with national and international data privacy regulations, including the Philippines' Data Privacy Act. I developed and implemented data protection policies and procedures, conducted privacy impact assessments and audits, and provided training to employees on data privacy best practices. I also managed data subject requests and collaborated with stakeholders to integrate data privacy considerations into business processes and systems.
+          As Data Protection Officer, I ensured compliance with national and international data privacy regulations, including the Philippines' Data Privacy Act. I developed and implemented data protection policies and procedures, conducted privacy impact assessments and audits, and provided training to employees on data privacy best practices. I also managed data subject requests and collaborated with stakeholders to integrate data privacy considerations into business processes and systems. Tasks include:
+          * Overseeing and implementing data protection strategies in compliance with relevant regulations (e.g., GDPR, CCPA, RA 10173).
+          * Creation of the company data privacy manual
+          * Managing data privacy policies and procedures.
+          * Conducting data protection impact assessments (DPIAs).
+          * Serving as the primary point of contact for data privacy inquiries.
 
       - layout: left
         title: A Brown Company, Inc. 
