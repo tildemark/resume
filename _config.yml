@@ -3,7 +3,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Alfredo Sanchez, Jr.
@@ -141,7 +141,7 @@ content:
         title: Notre Dame of Dadiangas University (NDDU)
         sub_title: Master of Business Administration (MBA) - credit units
         caption: General Santos City
-        #quote: >
+        # quote: >
         #  General Santos City
         description: | # this will include new lines to allow paragraphs
           Master of Business Administration program provided a comprehensive understanding of business principles and practices, including finance, accounting, marketing, operations, and strategic management. Developed leadership skills and decision-making abilities in a business context.
@@ -183,7 +183,7 @@ content:
           Spearheaded the development and implementation of Ship Tracking And Reporting System (STARS), a cutting-edge vessel monitoring system that leverages Starlink internet connectivity, <mark>solar renewable energy</mark>, <mark>GPS</mark> <mark>IoT</mark> devices, and <mark>CCTV</mark> cameras. This system provides real-time tracking of vessel location, speed, fuel consumption, and other critical parameters. STARS also incorporates advanced analytics and alarm functionalities to detect anomalies, such as sudden fuel decreases or engine shutdowns, enhancing operational efficiency and security.
 
   - title: Skills
-    layout: text
+    layout: list
     content:
       - layout: left
         title: ABAS In-House ERP Development
