@@ -197,6 +197,50 @@ content:
         #  East Lansing, MI
         description: | # this will include new lines to allow paragraphs
           **IT Management:**
+            * IT Strategy and Planning
+            * Budget Management
+            * Personnel Management (Hiring, Training, Performance Reviews)
+            * Vendor Management
+            * IT Infrastructure Management
+          **ERP:**
+            * ERP System Development (In-house & Vendor-based)
+            * ERP Implementation and Maintenance
+            * Requirements Gathering and Analysis
+          **Software Development:**
+            * Full Software Development Lifecycle (SDLC)
+            * Systems Design and Architecture
+            * Agile Development
+            * Scrum
+            * React, Next.js, CodeIgniter, PHP, Python
+          **IoT Development:**
+            * Embedded Systems
+            * ESP32, Arduino, RaspberryPi
+            * SMS integration
+          **Infrastructure:**
+            * Network Connectivity (Wireless, Tower Construction)
+            * CCTV Systems
+            * Renewable Energy (Solar)
+          **Project Management:**
+            * Agile
+            * Scrum
+            * Budget Management
+            * Resource Allocation
+            * Stakeholder Management
+          **SEO:**
+            * Organic SEO
+            * Paid SEO (Google Ads/AdWords)
+            * Google Analytics
+            * Keyword Research and Optimization
+            * On-Page and Off-Page Optimization
+          **Data Privacy:**
+            * Data Privacy Act of the Philippines (RA 10173)
+            * Data Privacy Compliance
+            * Policy and Procedure Development
+          **Management:**
+            * Team Leadership
+            * Communication (written and verbal)
+            * Problem-Solving
+            * Business Analysis
 
 # Footer
 footer_show_references: true
