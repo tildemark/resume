@@ -42,10 +42,8 @@ gtag: "G-53QW0VF81R"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Results-driven and detail-oriented IT leader with extensive experience in maritime and land-based technology deployments, most recently at Avega Bros Integrated Shipping Corp. Proven ability to manage complex IT projects, including ERP development, network infrastructure, IoT, and renewable energy solutions. Adept at troubleshooting and resolving intricate technical issues to maintain optimal system performance and provide exceptional support.  Possessing a strong foundation in network and server management, I am eager to leverage my skills and contribute to a dynamic team environment.  Dual role as Data Protection Officer, ensuring data privacy compliance. Committed to continuous learning and expanding my IT expertise to deliver effective and innovative solutions.  
-
-  I am most skilled in: <mark>ERP</mark>, <mark>IOT</mark>, <mark>Project Management</mark>, and Data Privacy.
-
+  A highly experienced and results-oriented Head of IT with over 20 years of expertise across diverse industries, including maritime cargo transport, real estate, and digital marketing. Proven ability to lead and manage IT departments, including ERP implementations, infrastructure development, cybersecurity, data privacy compliance, and innovative technology solutions. Background in computer engineering (hardware and software) with graduate-level coursework in business administration (MBA) and management information systems (MIS). Adept at bridging the gap between technical and business requirements to drive successful outcomes.
+  
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -66,7 +64,17 @@ content:
         #quote: >
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
-          As Head of IT, I led the strategic planning, implementation, and management of all IT operations for both land-based and maritime environments. This included overseeing the development and deployment of a comprehensive in-house <mark>ERP</mark> system (ABAS), integrating core business functions such as HR, finance, logistics, and operations. I also spearheaded the implementation of innovative technologies, including <mark>Starlink</mark> internet for vessels, <mark>renewable solar power systems</mark>, and advanced <mark>CCTV</mark> cargo monitoring, to enhance operational efficiency and security. Additionally, I served as <mark>Data Protection Officer</mark>, ensuring compliance with data privacy regulations. My key responsibilities encompassed network infrastructure management, server administration, cybersecurity, IT procurement, and team leadership.
+          * Lead and manage the entire IT department, including strategic planning, budget management, personnel management (hiring, training, performance reviews), and technology procurement.
+          * Oversaw the development, implementation, and maintenance of all IT systems, including the core ERP system (accessible on both PC and mobile devices).
+          * Spearheaded the in-house development of IoT devices to augment the ERP system, such as:
+            * Biometric authentication systems
+            * GPS tracking systems for company-owned vessels
+            * Ruggedized kiosks for employee workstations in hazardous or remote locations.
+          * Managed the company's IT infrastructure, including:
+          * Network connectivity (wireless connections to remote offices, including tower construction and maintenance)
+          * CCTV security systems
+          * Renewable energy solutions (solar power implementation)
+          * Ensured data privacy compliance in accordance with RA 10173 and other relevant regulations.
 
       - layout: left
         title: Avega Bros Integrated Shipping Corp
@@ -77,6 +85,10 @@ content:
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
           As Data Protection Officer, I ensured compliance with national and international data privacy regulations, including the Philippines' Data Privacy Act. I developed and implemented data protection policies and procedures, conducted privacy impact assessments and audits, and provided training to employees on data privacy best practices. I also managed data subject requests and collaborated with stakeholders to integrate data privacy considerations into business processes and systems.
+          * Overseeing and implementing data protection strategies in compliance with relevant regulations (e.g., GDPR, CCPA, RA 10173).
+          * Managing data privacy policies and procedures.
+          * Conducting data protection impact assessments (DPIAs).
+          * Serving as the primary point of contact for data privacy inquiries.
 
       - layout: left
         title: A Brown Company, Inc. 
@@ -87,6 +99,28 @@ content:
         #  Consolacion, Cebu
         description: | # this will include new lines to allow paragraphs
           Started as a Head Programmer, developing and implementing an <mark>ERP</mark> system using <mark>Java</mark>. Within a year, I was promoted to Assistant Manager and functioned as the de facto IT Manager, leading the department in the absence of a direct manager. My responsibilities included strategic IT planning, project management, and operational oversight, all within the context of the <mark>real estate</mark> industry. This involved managing IT infrastructure, overseeing software development, ensuring data security, and collaborating with stakeholders to align IT solutions with business objectives.
+
+      - layout: left
+        title: Turnkey Publishing, LLC 
+        sub_title: Project Manager 
+        caption: October 2009 - October 2015
+        #quote: >
+        #  Consolacion, Cebu
+        description: | # this will include new lines to allow paragraphs
+          * Managed multiple website development projects for US-based clients, from initial concept to deployment.
+          * Oversaw project scopes, timelines, and budgets, ensuring projects were delivered on time and within budget.
+          * Communicated effectively with clients and development teams, providing regular updates and addressing any concerns.
+
+      - layout: left
+        title: Hubport Interactive 
+        sub_title: SEO Manager
+        caption: October 2009 - October 2015
+        #quote: >
+        #  Consolacion, Cebu
+        description: | # this will include new lines to allow paragraphs
+          * Managed SEO strategies and campaigns to improve organic search rankings and drive website traffic.
+          * Conducted keyword research, on-page optimization, and link building activities.
+          * Tracked and analyzed SEO performance metrics using tools like [e.g., Google Analytics, SEMrush, Ahrefs].
 
   - title: Education
     layout: list
