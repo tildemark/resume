@@ -60,3 +60,91 @@
     margin-bottom: 20px;
   }
 }
+
+
+/* --- Floating Toggle Button Styling --- */
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+#theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+#theme-icon {
+  font-size: 1.2rem;
+  color: #fbbf24; /* Sun Yellow */
+}
+
+/* --- LIGHT MODE OVERRIDES --- */
+/* When body has class 'light-mode', invert the colors */
+
+body.light-mode {
+  background-color: #f8f9fa !important; /* White-ish gray background */
+  color: #1f2937 !important; /* Dark text */
+}
+
+/* Fix the Toggle Button visibility in light mode */
+body.light-mode #theme-toggle {
+  background-color: #e5e7eb;
+  border-color: #d1d5db;
+}
+body.light-mode #theme-icon {
+  color: #4b5563; /* Moon color (Dark Grey) */
+}
+
+/* Header Text */
+body.light-mode h1, 
+body.light-mode h2, 
+body.light-mode h3, 
+body.light-mode h4,
+body.light-mode strong {
+  color: #111827 !important; /* Almost Black */
+}
+
+body.light-mode p, 
+body.light-mode li {
+  color: #374151 !important; /* Dark Grey */
+}
+
+/* Descriptions / Subtitles */
+body.light-mode .header-description,
+body.light-mode .sub_title {
+  color: #4b5563 !important;
+}
+
+/* Badges / Skills */
+body.light-mode code {
+  background-color: #e5e7eb !important; /* Light Grey Badge */
+  border-color: #d1d5db !important;
+  color: #1f2937 !important;
+}
+
+/* Links */
+body.light-mode a {
+  color: #2563eb !important; /* Standard Link Blue */
+}
+body.light-mode a:hover {
+  text-decoration: underline;
+}
+
+/* Avatar Border */
+body.light-mode .profile-avatar {
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

@@ -33,6 +33,39 @@
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
+
+  // Light or Dark Toggle
+  <div id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle Dark/Light Mode">
+    <i class="fas fa-sun" id="theme-icon"></i>
+  </div>
+
+  <script>
+    // 1. Check LocalStorage on load
+    const currentTheme = localStorage.getItem('theme');
+    const icon = document.getElementById('theme-icon');
+    
+    if (currentTheme === 'light') {
+      document.body.classList.add('light-mode');
+      icon.classList.remove('fa-sun');
+      icon.classList.add('fa-moon');
+    }
+
+    // 2. Toggle Function
+    function toggleTheme() {
+      document.body.classList.toggle('light-mode');
+      
+      // Check status and update icon/storage
+      if (document.body.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light');
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      } else {
+        localStorage.setItem('theme', 'dark');
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      }
+    }
+  </script>
 </body>
 
 </html>
