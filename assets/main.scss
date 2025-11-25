@@ -4,18 +4,28 @@
 
 @import 'modern-resume-theme';
 
-/* Layout for Avatar + Text side-by-side */
-.profile-flex {
-  display: flex;
-  align-items: center; /* Centers text vertically relative to image */
-  gap: 20px;           /* Space between avatar and text */
+/* 1. Ensure the parent column doesn't have extra padding pushing it down */
+.header-left {
+  padding-top: 0 !important;
+  display: flex; /* Ensures the flex container inside works reliably */
+  align-items: flex-start; /* Aligns content to the top */
 }
 
+/* 2. Pull the Avatar/Text block up to match the Social Icons */
+.profile-flex {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  
+  /* THIS IS THE KEY FIX: Negative margin lifts it up */
+  margin-top: -15px; 
+}
+
+/* 3. Keep the text and avatar styling from before */
 .profile-text {
   text-align: left;
 }
 
-/* Avatar Styling */
 .profile-avatar {
   width: 130px;
   height: 130px;
@@ -25,11 +35,11 @@
   display: block;
 }
 
-/* Fix for H1/H2 margins to make them sit tight */
 .profile-text h1 {
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.1;
+  font-size: 2.5rem; /* Adjust if the name looks too big/small */
 }
 
 .profile-text h2 {
@@ -38,20 +48,15 @@
   font-weight: normal;
 }
 
-/* Mobile: Stack them back up on small screens */
+/* Mobile: Reset the margin so it doesn't look weird on phones */
 @media only screen and (max-width: 768px) {
   .profile-flex {
-    flex-direction: column; /* Stack vertically on phone */
+    flex-direction: column;
     text-align: center;
+    margin-top: 0; /* Reset spacing on mobile */
   }
-  
-  .profile-text {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
   .header-left {
-    display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
 }
