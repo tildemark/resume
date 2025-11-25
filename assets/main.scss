@@ -148,3 +148,42 @@ body.light-mode .profile-avatar {
   border-color: rgba(0,0,0,0.1);
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+
+
+/* --- PRINT STYLES --- */
+@media print {
+  /* 1. Force White Background & Black Text */
+  body, .header-container, .container, .wrapper {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* 2. Hide the Theme Toggle Button & Social Icons (optional) */
+  #theme-toggle, .icons {
+    display: none !important;
+  }
+
+  /* 3. Ensure Links are readable but not blue underlined */
+  a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
+  
+  /* 4. Show URL after links so people can read them on paper? 
+     Optional: removing this keeps it clean. */
+  a[href]:after {
+    content: none !important; 
+  }
+
+  /* 5. Fix margins for paper */
+  @page {
+    margin: 1cm;
+  }
+  
+  /* 6. Fix Badges for print */
+  code {
+    border: 1px solid #000 !important;
+    color: #000 !important;
+    background: none !important;
+  }
+}
