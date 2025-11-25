@@ -102,7 +102,7 @@ content:
       - layout: left
         title: STARS (Ship Tracking And Reporting System)
         sub_title: Lead Architect & Project Manager
-        link: https://stars.avegabros.org (login required)
+        link: stars.avegabros.org (login required)
         description: |
           A cutting-edge vessel monitoring system leveraging Starlink, Solar Energy, and IoT.
           * **Tech Stack:** Python (Data Ingestion), React (Dashboard), LeafletJS (Mapping), PostgreSQL, ESP32 (Hardware).
@@ -111,7 +111,7 @@ content:
       - layout: left
         title: ABAS ERP
         sub_title: Lead Developer
-        link: https://abas.avegabros.org (login required)
+        link: abas.avegabros.org (login required)
         description: |
           The central nervous system of Avega Bros. A monolithic ERP handling Accounting, Purchasing, and Crew Management.
           * **Tech Stack:** PHP (CodeIgniter), MySQL, Bootstrap, REST APIs for mobile kiosks.
