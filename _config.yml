@@ -44,7 +44,7 @@ gtag: "G-FHP293L2WL"
 about_title: Profile # (Use this to override about section title)
 # about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  A highly experienced and results-oriented Head of IT with over 20 years of expertise across diverse industries, including <mark>maritime cargo transport</mark>, <mark>real estate</mark>, and <mark>digital marketing</mark>. Proven ability to lead and manage IT departments, including <mark>ERP</mark> implementations, infrastructure development, cybersecurity, <mark>data privacy</mark> compliance, and innovative technology solutions. Experienced in <mark>cloud</mark> technologies, website hosting, data management, and server administration. Strong leadership background, starting with managing a global <mark>SEO</mark> team and progressing to leading a complete IT department. Background in <mark>Computer Engineering</mark> (hardware and software) with graduate-level coursework in business administration (<mark>MBA</mark>) and management information systems (<mark>MIS</mark>). Adept at bridging the gap between technical and business requirements to drive successful outcomes.
+  **Head of IT & Engineering Lead** with over 15 years of experience bridging enterprise software and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of cloud ERPs and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation for maritime logistics, data privacy compliance (DPO), and full-stack development. I build systems that work in rugged environments—from air-conditioned server rooms to the open sea.
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -55,11 +55,6 @@ about_content: | # this will include new lines to allow paragraphs
   #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Profile
-    layout: text
-    content: |
-      **Head of IT & Engineering Lead** with over 15 years of experience bridging enterprise software and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of cloud ERPs and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation for maritime logistics, data privacy compliance (DPO), and full-stack development. I build systems that work in rugged environments—from air-conditioned server rooms to the open sea.
-
   - title: Experience
     layout: list
     content:
@@ -132,99 +127,29 @@ content:
       
       **Infrastructure** AWS (EC2/S3) • Linux Administration • Network Design (VLANs/VPNs) • Tower Construction
 
-  - title: Education
+- title: Education
     layout: list
     content:
       - layout: left
         title: University of the Philippines Open University
         sub_title: Graduate Coursework in Information Systems (MIS)
-        description: Focused on IT Management and Database Systems.
+        description: |
+          **Focus:** IT Leadership & Systems Design.
+          **Key Subjects:** Advanced Database Management, Information Security, Data Analytics, and IT Project Management.
       
       - layout: left
         title: Notre Dame of Dadiangas University
         sub_title: Graduate Coursework in Business Administration (MBA)
-        description: Strategic Management and Finance.
+        description: |
+          **Focus:** Corporate Strategy & Finance.
+          **Key Subjects:** Strategic Management, Financial Accounting, Operations Research, and Organizational Behavior.
 
       - layout: left
         title: Mindanao Polytechnic State College
         sub_title: B.S. Computer Engineering
-        description: Hardware/Software integration and Embedded Systems.
-
-  - title: Skills
-    layout: list
-    content:
-      - layout: right
-        # title: ABAS In-House ERP Development
-        # sub_title: Languages and Technologies
-        # caption: ERP, React, Next.js, PHP, CodeIgniter, Python, Java, MySQL, PostgreSQL, AWS, Google Cloud, Azure, CCTV, GPS, IoT, Solar Renewable Energy, ERP
-        # link: abas.avegabros.org
-        #additional_links:
-        #  - title:  ABAS ePortal
-        #    icon: fab fa-github
-        #    url: eportal.avegabros.org
-        # quote: >
-        #  East Lansing, MI
-        description: | # this will include new lines to allow paragraphs
-          **IT Management:**
-            * IT Strategy and Planning
-            * Budget Management
-            * Personnel Management (Hiring, Training, Performance Reviews)
-            * Vendor Management
-            * IT Infrastructure Management
-
-          **ERP:**
-            * ERP System Development (In-house & Vendor-based)
-            * ERP Implementation and Maintenance
-            * Requirements Gathering and Analysis
-
-          **Software Development:**
-            * Full Software Development Lifecycle (SDLC)
-            * Systems Design and Architecture
-            * Agile Development
-            * Scrum
-            * React, Next.js, CodeIgniter, PHP, Python
-            
-          **DevSecOps** 
-            * Scripting
-            * Cloud Deployment
-            * CI/CD
-            * Docker Containerization
-            * Version Control
-            
-          **IoT Development:**
-            * Embedded Systems
-            * ESP32, Arduino, RaspberryPi
-            * SMS integration
-
-          **Infrastructure:**
-            * Network Connectivity (Wireless, Tower Construction)
-            * CCTV Systems
-            * Renewable Energy (Solar)
-
-          **Project Management:**
-            * Agile
-            * Scrum
-            * Budget Management
-            * Resource Allocation
-            * Stakeholder Management
-
-          **SEO:**
-            * Organic SEO
-            * Paid SEO (Google Ads/AdWords)
-            * Google Analytics
-            * Keyword Research and Optimization
-            * On-Page and Off-Page Optimization
-
-          **Data Privacy:**
-            * Data Privacy Act of the Philippines (RA 10173)
-            * Data Privacy Compliance
-            * Policy and Procedure Development
-
-          **Management:**
-            * Team Leadership
-            * Communication (written and verbal)
-            * Problem-Solving
-            * Business Analysis
+        description: |
+          **Focus:** Hardware/Software Integration.
+          **Key Subjects:** Embedded Systems, Digital Signal Processing, Computer Architecture, and Network Systems Design.
 
 # Footer
 footer_show_references: true
