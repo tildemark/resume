@@ -4,22 +4,28 @@
 
 @import 'modern-resume-theme';
 
-/* Avatar Styling */
+/* Avatar Styling - Left Aligned */
 .profile-avatar {
   width: 150px;
   height: 150px;
-  border-radius: 50%; /* Makes it circular */
+  border-radius: 50%;
   object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  border: 3px solid rgba(255, 255, 255, 0.2);
   display: block;
-  margin: 0 auto 1.5rem auto; /* Centers it and adds space below */
+  /* CHANGED: Removed 'auto' to stop centering, set bottom margin only */
+  margin: 0 0 1rem 0; 
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
-/* Ensure it looks good on mobile */
-@media screen and (max-width: 420px) {
+/* On mobile, we usually want everything centered */
+@media screen and (max-width: 600px) {
   .profile-avatar {
+    margin: 0 auto 1rem auto; /* Center image on mobile */
     width: 120px;
     height: 120px;
+  }
+  
+  .page-header {
+    text-align: center; /* Center text on mobile */
   }
 }
