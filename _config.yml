@@ -129,28 +129,28 @@ content:
       `AWS (EC2/S3)` `Linux Admin` `Network Design (VLAN/VPN)` `Tower Construction` `IT Strategy` `Data Privacy (DPO)`
 
   - title: Education
-      layout: list
-      content:
-        - layout: left
-          title: University of the Philippines Open University
-          sub_title: Graduate Coursework in Information Systems (MIS)
-          description: |
-            **Focus:** IT Leadership & Systems Design.
-            **Key Subjects:** Advanced Database Management, Information Security, Data Analytics, and IT Project Management.
-        
-        - layout: left
-          title: Notre Dame of Dadiangas University
-          sub_title: Graduate Coursework in Business Administration (MBA)
-          description: |
-            **Focus:** Corporate Strategy & Finance.
-            **Key Subjects:** Strategic Management, Financial Accounting, Operations Research, and Organizational Behavior.
+    layout: list
+    content:
+      - layout: left
+        title: University of the Philippines Open University
+        sub_title: Graduate Coursework in Information Systems (MIS)
+        description: |
+          **Focus:** IT Leadership & Systems Design.
+          **Key Subjects:** Advanced Database Management, Information Security, Data Analytics, and IT Project Management.
+      
+      - layout: left
+        title: Notre Dame of Dadiangas University
+        sub_title: Graduate Coursework in Business Administration (MBA)
+        description: |
+          **Focus:** Corporate Strategy & Finance.
+          **Key Subjects:** Strategic Management, Financial Accounting, Operations Research, and Organizational Behavior.
 
-        - layout: left
-          title: Mindanao Polytechnic State College
-          sub_title: B.S. Computer Engineering
-          description: |
-            **Focus:** Hardware/Software Integration.
-            **Key Subjects:** Embedded Systems, Digital Signal Processing, Computer Architecture, and Network Systems Design.
+      - layout: left
+        title: Mindanao Polytechnic State College
+        sub_title: B.S. Computer Engineering
+        description: |
+          **Focus:** Hardware/Software Integration.
+          **Key Subjects:** Embedded Systems, Digital Signal Processing, Computer Architecture, and Network Systems Design.
 
 # Footer
 footer_show_references: true
