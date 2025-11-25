@@ -3,3 +3,23 @@
 ---
 
 @import 'modern-resume-theme';
+
+/* Avatar Styling */
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  display: block;
+  margin: 0 auto 1.5rem auto; /* Centers it and adds space below */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Ensure it looks good on mobile */
+@media screen and (max-width: 420px) {
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
