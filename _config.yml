@@ -117,39 +117,40 @@ content:
           * **Tech Stack:** PHP (CodeIgniter), MySQL, Bootstrap, REST APIs for mobile kiosks.
 
   - title: Skills & Tech
-    layout: text
-    content: |
-      **Management & Ops** IT Strategy • Budgeting • Agile/Scrum • Data Privacy (DPO) • Vendor Management
-      
-      **Maritime & Hardware** Starlink Enterprise • Shipboard Solar Arrays • NMEA 0183/2000 • AIS Integration • ESP32/Arduino • CCTV Systems
-      
-      **Software Development** PHP (CodeIgniter) • Python • React • Next.js • SQL (PostgreSQL/MySQL) • Docker • CI/CD
-      
-      **Infrastructure** AWS (EC2/S3) • Linux Administration • Network Design (VLANs/VPNs) • Tower Construction
+      layout: text
+      content: |
+        **Maritime & IoT**
+        `Starlink Enterprise` `Shipboard Solar Arrays` `NMEA 0183/2000` `AIS Integration` `ESP32` `Arduino` `CCTV Systems` `GPS Telemetry`
 
-- title: Education
-    layout: list
-    content:
-      - layout: left
-        title: University of the Philippines Open University
-        sub_title: Graduate Coursework in Information Systems (MIS)
-        description: |
-          **Focus:** IT Leadership & Systems Design.
-          **Key Subjects:** Advanced Database Management, Information Security, Data Analytics, and IT Project Management.
-      
-      - layout: left
-        title: Notre Dame of Dadiangas University
-        sub_title: Graduate Coursework in Business Administration (MBA)
-        description: |
-          **Focus:** Corporate Strategy & Finance.
-          **Key Subjects:** Strategic Management, Financial Accounting, Operations Research, and Organizational Behavior.
+        **Software Stack**
+        `PHP (CodeIgniter)` `Python` `React` `Next.js` `PostgreSQL` `MySQL` `Docker` `CI/CD` `Git` `REST APIs`
 
-      - layout: left
-        title: Mindanao Polytechnic State College
-        sub_title: B.S. Computer Engineering
-        description: |
-          **Focus:** Hardware/Software Integration.
-          **Key Subjects:** Embedded Systems, Digital Signal Processing, Computer Architecture, and Network Systems Design.
+        **Management & Ops**
+        `AWS (EC2/S3)` `Linux Admin` `Network Design (VLAN/VPN)` `Tower Construction` `IT Strategy` `Data Privacy (DPO)`
+
+  - title: Education
+      layout: list
+      content:
+        - layout: left
+          title: University of the Philippines Open University
+          sub_title: Graduate Coursework in Information Systems (MIS)
+          description: |
+            **Focus:** IT Leadership & Systems Design.
+            **Key Subjects:** Advanced Database Management, Information Security, Data Analytics, and IT Project Management.
+        
+        - layout: left
+          title: Notre Dame of Dadiangas University
+          sub_title: Graduate Coursework in Business Administration (MBA)
+          description: |
+            **Focus:** Corporate Strategy & Finance.
+            **Key Subjects:** Strategic Management, Financial Accounting, Operations Research, and Organizational Behavior.
+
+        - layout: left
+          title: Mindanao Polytechnic State College
+          sub_title: B.S. Computer Engineering
+          description: |
+            **Focus:** Hardware/Software Integration.
+            **Key Subjects:** Embedded Systems, Digital Signal Processing, Computer Architecture, and Network Systems Design.
 
 # Footer
 footer_show_references: true
