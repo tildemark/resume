@@ -41,8 +41,8 @@ gtag: "G-FHP293L2WL"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/headshot.jpg
+about_title: Profile # (Use this to override about section title)
+# about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
   A highly experienced and results-oriented Head of IT with over 20 years of expertise across diverse industries, including <mark>maritime cargo transport</mark>, <mark>real estate</mark>, and <mark>digital marketing</mark>. Proven ability to lead and manage IT departments, including <mark>ERP</mark> implementations, infrastructure development, cybersecurity, <mark>data privacy</mark> compliance, and innovative technology solutions. Experienced in <mark>cloud</mark> technologies, website hosting, data management, and server administration. Strong leadership background, starting with managing a global <mark>SEO</mark> team and progressing to leading a complete IT department. Background in <mark>Computer Engineering</mark> (hardware and software) with graduate-level coursework in business administration (<mark>MBA</mark>) and management information systems (<mark>MIS</mark>). Adept at bridging the gap between technical and business requirements to drive successful outcomes.
 
