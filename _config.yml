@@ -117,16 +117,16 @@ content:
           * **Tech Stack:** PHP (CodeIgniter), MySQL, Bootstrap, REST APIs for mobile kiosks.
 
   - title: Skills & Tech
-      layout: text
-      content: |
-        **Maritime & IoT**
-        `Starlink Enterprise` `Shipboard Solar Arrays` `NMEA 0183/2000` `AIS Integration` `ESP32` `Arduino` `CCTV Systems` `GPS Telemetry`
+    layout: text
+    content: |
+      **Maritime & IoT**
+      `Starlink Enterprise` `Shipboard Solar Arrays` `NMEA 0183/2000` `AIS Integration` `ESP32` `Arduino` `CCTV Systems` `GPS Telemetry`
 
-        **Software Stack**
-        `PHP (CodeIgniter)` `Python` `React` `Next.js` `PostgreSQL` `MySQL` `Docker` `CI/CD` `Git` `REST APIs`
+      **Software Stack**
+      `PHP (CodeIgniter)` `Python` `React` `Next.js` `PostgreSQL` `MySQL` `Docker` `CI/CD` `Git` `REST APIs`
 
-        **Management & Ops**
-        `AWS (EC2/S3)` `Linux Admin` `Network Design (VLAN/VPN)` `Tower Construction` `IT Strategy` `Data Privacy (DPO)`
+      **Management & Ops**
+      `AWS (EC2/S3)` `Linux Admin` `Network Design (VLAN/VPN)` `Tower Construction` `IT Strategy` `Data Privacy (DPO)`
 
   - title: Education
       layout: list
