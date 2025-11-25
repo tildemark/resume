@@ -149,13 +149,6 @@ content:
         sub_title: B.S. Computer Engineering
         description: Hardware/Software integration and Embedded Systems.
 
-  - title: Skills & Tech
-      layout: text
-      content: |
-        **Maritime & Hardware** `Starlink` `Solar Arrays` `NMEA 0183` `AIS` `ESP32` `CCTV`
-        
-        **Software** `PHP` `Python` `React` `PostgreSQL` `Docker` `Linux`
-
   - title: Skills
     layout: list
     content:
