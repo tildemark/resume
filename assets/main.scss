@@ -186,4 +186,22 @@ body.light-mode .profile-avatar {
     color: #000 !important;
     background: none !important;
   }
+
+  /* Fix for Name wrapping on print */
+  .profile-flex {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 100% !important; /* Force full width */
+  }
+
+  .profile-text {
+    flex-grow: 1 !important; /* Allow text block to expand to fill space */
+    white-space: nowrap !important; /* Prevents wrapping of the name */
+  }
+
+  /* Optional: Ensure the H1 has enough room */
+  .profile-text h1 {
+     width: auto !important;
+  }
 }
