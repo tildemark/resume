@@ -7,9 +7,10 @@ version: 2
 
 # Personal info
 name: Alfredo Sanchez, Jr.
-title: Alfredo Sanchez Jr.
+title: Head of IT & DPO
+avatar: https://github.com/tildemark.png
 email: derf@sanchez.ph
-description: Head of IT & Engineering Lead
+description: 
 # email_title: Email (Email title override)
 phone: (917) 702-5960
 # phone_title: Phone (Phone title override)
@@ -36,7 +37,7 @@ facebook_username: tildemark
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-gtag: "G-53QW0VF81R"
+gtag: "G-FHP293L2WL"
 # google_analytics: "UA-00000000-0"
 
 # About Section
