@@ -44,7 +44,7 @@ gtag: "G-FHP293L2WL"
 about_title: Profile # (Use this to override about section title)
 # about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  **Head of IT & Engineering Lead** with over 15 years of experience bridging enterprise software and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of cloud ERPs and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation for maritime logistics, data privacy compliance (DPO), and full-stack development. I build systems that work in rugged environments—from air-conditioned server rooms to the open sea.
+  **Head of IT & Data Protection** with over 15 years of experience bridging enterprise software and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of cloud ERPs and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation for maritime logistics, data privacy compliance (DPO), and full-stack development. I build systems that work in rugged environments—from air-conditioned server rooms to the open sea.
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -87,14 +87,14 @@ content:
         caption: Oct 2009 - Jan 2015
         description: |
           Managed the full SDLC for US-based clients, overseeing WordPress deployments and AWS (EC2/S3) infrastructure.
-          * **Delivery:** Successfully launched 20+ web projects, coordinating between clients and distributed development teams.
+          * **Delivery:** Successfully launched 50+ web projects, coordinating between clients and distributed development teams.
 
       - layout: left
         title: Hubport Interactive
         sub_title: SEO Manager
         caption: Nov 2007 - Oct 2009
         description: |
-          Led a 24/7 team of SEO specialists managing campaigns for international clients in Australia and the US.
+          Directed a 24/7 SEO operations center, managing shift-based teams to provide continuous optimization for hundreds of websites across US and Australian markets.
 
   - title: Projects
     layout: list
