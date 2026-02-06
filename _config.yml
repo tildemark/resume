@@ -43,6 +43,7 @@ gtag: "G-FHP293L2WL"
 # About Section
 about_title: Profile # (Use this to override about section title)
 # about_profile_image: images/headshot.jpg
+about_content: | # this will include new lines to allow paragraphs
   **Head of IT, Data Protection Officer (DPO) & Technologist** with over 15 years of experience bridging enterprise software, privacy engineering, and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of **Oracle Cloud (OCI)**, **Cloudflare**, and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation, AI-assisted workflows, and building systems that work in rugged environments—from air-conditioned server rooms to the open sea.  
   
   Read my technical deep-dives at [blog.sanchez.ph](https://blog.sanchez.ph).
