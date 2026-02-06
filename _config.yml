@@ -43,8 +43,9 @@ gtag: "G-FHP293L2WL"
 # About Section
 about_title: Profile # (Use this to override about section title)
 # about_profile_image: images/headshot.jpg
-about_content: | # this will include new lines to allow paragraphs
-  **Head of IT & Data Protection** with over 15 years of experience bridging enterprise software and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of cloud ERPs and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation for maritime logistics, data privacy compliance (DPO), and full-stack development. I build systems that work in rugged environments—from air-conditioned server rooms to the open sea.
+  **Head of IT, Data Protection Officer (DPO) & Technologist** with over 15 years of experience bridging enterprise software, privacy engineering, and operational hardware. Currently leading IT for **Avega Bros Integrated Shipping**, managing a hybrid infrastructure of **Oracle Cloud (OCI)**, **Cloudflare**, and shipboard IoT for a fleet of **50+ vessels**. Expert in digital transformation, AI-assisted workflows, and building systems that work in rugged environments—from air-conditioned server rooms to the open sea.  
+  
+  Read my technical deep-dives at [blog.sanchez.ph](https://blog.sanchez.ph).
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -116,17 +117,29 @@ content:
           The central nervous system of Avega Bros. A monolithic ERP handling Accounting, Purchasing, and Crew Management.
           * **Tech Stack:** PHP (CodeIgniter), MySQL, Bootstrap, REST APIs for mobile kiosks.
 
+      - layout: left
+        title: TANOD
+        sub_title: Privacy Engineering & DPO Platform
+        link: github.com/tildemark/tanod
+        description: |
+          A compliance platform designed for Data Protection Officers (DPO) to manage risk assessments and privacy mandates.
+          * **Features:** AI-powered privacy impact assessments (PIA), automated breach reporting workflows, and regulatory mapping.
+          * **Tech Stack:** TypeScript, React, AI Integration, Privacy-by-Design architecture.
+
   - title: Skills & Tech
     layout: text
     content: |
-      **Maritime & IoT**  
-      `Starlink Enterprise` `Shipboard Solar Arrays` `NMEA 0183/2000` `AIS Integration` `ESP32` `Arduino` `CCTV Systems` `GPS Telemetry`
+      **Leadership & Privacy**
+      `Data Protection (DPO)` `Privacy Engineering` `ISO Compliance` `IT Strategy` `Remote Team Management`
 
-      **Software Stack**  
-      `PHP (CodeIgniter)` `Python` `React` `Next.js` `PostgreSQL` `MySQL` `Docker` `CI/CD` `Git` `REST APIs`
+      **Cloud & Infrastructure**
+      `AWS` `Oracle Cloud (OCI)` `Cloudflare Workers` `Docker` `Portainer` `Linux Admin` `Self-Hosting (Immich/Gitea)`
 
-      **Management & Ops**  
-      `AWS (EC2/S3)` `Linux Admin` `Network Design (VLAN/VPN)` `Tower Construction` `IT Strategy` `Data Privacy (DPO)`
+      **Full Stack & AI**
+      `React/Next.js` `TypeScript` `Tailwind CSS` `PHP (CodeIgniter)` `Python` `AI-Assisted Workflows` `Prompt Engineering`
+
+      **Maritime IoT**
+      `Starlink` `ESP32/Arduino` `Solar Power Systems` `GPS Telemetry` `NMEA Integration`
 
   - title: Education
     layout: list
