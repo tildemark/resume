@@ -130,7 +130,7 @@ content:
       - layout: left
         title: T.R.A.C.E. (Total Resource Asset & Compliance Engine)
         sub_title: Lead Architect & Full Stack Developer
-        link: github.com/tildemark/trace
+        link: trace.sanchezz.ph
         description: |
           An enterprise-grade, on-premises asset management and compliance ecosystem engineered for luxury hospitality and resort operations.
           * **Features:** Offline-first mobile audit/scanning (QR & RFID), GS1 SGTIN-96 tagging, legacy MSSQL migration engine with SSE streaming, IoT predictive maintenance, PMS/ERP integration, and a SHA-256 cryptographic audit ledger (ISO 55001/27001 readiness).
@@ -139,7 +139,7 @@ content:
       - layout: left
         title: SILIP (Searchable Interface for Legal Information & Privacy)
         sub_title: Creator & Full Stack Developer
-        link: github.com/tildemark/silip
+        link: silip.sanchez.ph
         description: |
           A dedicated legal search engine and research platform indexing Philippine data privacy laws, NPC circulars, and advisories.
           * **Features:** Hybrid semantic + vector search (v2.0), Gemini-powered AI re-ranking for complex legal queries, stop word filtering, document type taxonomy, and sub-100ms response caching.
@@ -148,7 +148,7 @@ content:
       - layout: left
         title: DPA Mastery
         sub_title: Creator & Mobile Developer
-        link: github.com/tildemark/dpa-mastery
+        link: dpa-mastery.sanchez.ph
         description: |
           An offline-first mobile learning application designed for privacy professionals and DPOs preparing for the NPC Data Privacy Competency Examination.
           * **Features:** 8-Stage Spaced Repetition System (SRS), difficulty tier gating engine (85% Guru rule), 2-phase guided lessons, tag drills, and background over-the-air (OTA) question updates.
