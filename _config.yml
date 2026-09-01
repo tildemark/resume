@@ -154,6 +154,11 @@ content:
           * **Features:** 8-Stage Spaced Repetition System (SRS), difficulty tier gating engine (85% Guru rule), 2-phase guided lessons, tag drills, and background over-the-air (OTA) question updates.
           * **Tech Stack:** Flutter, Dart, Drift (SQLite), Riverpod, Offline-First Architecture.
 
+  - title: Industry Experience
+    layout: text
+    content: |
+      `Maritime Transport & Integrated Logistics` `Real Estate & Property Development` `Hospitality & Luxury Resorts` `Legal Tech & Privacy Compliance` `BPO & 24/7 Operations` `Digital Publishing & Web Media` `EdTech & Professional Training`
+
   - title: Skills & Tech
     layout: text
     content: |
