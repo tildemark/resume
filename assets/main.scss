@@ -150,58 +150,228 @@ body.light-mode .profile-avatar {
 }
 
 
-/* --- PRINT STYLES --- */
+/* --- PRINT STYLES (A4 OPTIMIZED) --- */
+@page {
+  size: A4 portrait;
+  margin: 12mm 15mm 12mm 15mm;
+}
+
 @media print {
-  /* 1. Force White Background & Black Text */
-  body, .header-container, .container, .wrapper {
+  /* 1. Reset and Force Clear Print Theme */
+  html, body {
     background-color: #ffffff !important;
-    color: #000000 !important;
+    color: #111111 !important;
+    font-size: 9.5pt !important;
+    line-height: 1.4 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
-  /* 2. Hide the Theme Toggle Button & Social Icons (optional) */
-  #theme-toggle, .icons {
+  .wrapper, .container, .header-container {
+    background-color: transparent !important;
+    color: #111111 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* 2. Hide Interactive / Screen-only Elements */
+  #theme-toggle,
+  .icons,
+  .no-print,
+  .no-print * {
     display: none !important;
   }
 
-  /* 3. Ensure Links are readable but not blue underlined */
-  a {
-    text-decoration: none !important;
-    color: #000000 !important;
-  }
-  
-  /* 4. Show URL after links so people can read them on paper? 
-     Optional: removing this keeps it clean. */
-  a[href]:after {
-    content: none !important; 
+  /* 3. Typography & Headings */
+  h1 {
+    font-size: 20pt !important;
+    margin-top: 0 !important;
+    margin-bottom: 2pt !important;
+    color: #111111 !important;
+    font-weight: 700 !important;
+    line-height: 1.1 !important;
   }
 
-  /* 5. Fix margins for paper */
-  @page {
-    margin: 1cm;
-  }
-  
-  /* 6. Fix Badges for print */
-  code {
-    border: 1px solid #000 !important;
-    color: #000 !important;
-    background: none !important;
+  h2 {
+    font-size: 11pt !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    color: #444444 !important;
+    font-weight: 500 !important;
   }
 
-  /* Fix for Name wrapping on print */
+  h3 {
+    font-size: 13pt !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+    color: #111111 !important;
+    border-bottom: 1.5pt solid #333333 !important;
+    padding-bottom: 3pt !important;
+    margin-top: 14pt !important;
+    margin-bottom: 10pt !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  h4 {
+    font-size: 10.5pt !important;
+    font-weight: 700 !important;
+    color: #111111 !important;
+    margin-top: 0 !important;
+    margin-bottom: 2pt !important;
+    line-height: 1.25 !important;
+  }
+
+  p, ul, li {
+    font-size: 9.5pt !important;
+    line-height: 1.4 !important;
+    color: #222222 !important;
+    text-align: left !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+
+  ul {
+    padding-left: 18px !important;
+    margin-top: 4pt !important;
+    margin-bottom: 4pt !important;
+  }
+
+  li {
+    margin-bottom: 2.5pt !important;
+  }
+
+  /* 4. Layout Spacing & Page-Break Protection */
+  .container {
+    margin-top: 0 !important;
+    margin-bottom: 8pt !important;
+  }
+
+  .header-container {
+    margin-top: 0 !important;
+    margin-bottom: 10pt !important;
+    padding-bottom: 8pt !important;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .layout {
+    margin-top: 8pt !important;
+    margin-bottom: 8pt !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .layout .details {
+    width: 28% !important;
+    padding-right: 15px !important;
+    margin-bottom: 0 !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .layout .details p {
+    font-size: 9pt !important;
+    margin-bottom: 2pt !important;
+  }
+
+  .layout .content {
+    width: 72% !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .layout .content p {
+    margin-bottom: 4pt !important;
+  }
+
+  /* 5. Header & Profile Styling */
+  .header-left {
+    margin-top: 0 !important;
+    width: 65% !important;
+    float: left !important;
+  }
+
+  .header-right {
+    margin-top: 0 !important;
+    width: 35% !important;
+    float: right !important;
+    text-align: right !important;
+  }
+
+  .header-right p {
+    font-size: 9pt !important;
+    margin-bottom: 2pt !important;
+    text-align: right !important;
+    color: #333333 !important;
+  }
+
   .profile-flex {
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
-    width: 100% !important; /* Force full width */
+    gap: 15px !important;
+    margin-top: 0 !important;
+  }
+
+  .profile-avatar {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50% !important;
+    border: 2px solid #ccc !important;
+    display: block !important;
+    object-fit: cover !important;
   }
 
   .profile-text {
-    flex-grow: 1 !important; /* Allow text block to expand to fill space */
-    white-space: nowrap !important; /* Prevents wrapping of the name */
+    flex-grow: 1 !important;
   }
 
-  /* Optional: Ensure the H1 has enough room */
-  .profile-text h1 {
-     width: auto !important;
+  /* 6. Links & Code Badges */
+  a {
+    text-decoration: none !important;
+    color: #111111 !important;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+
+  .link {
+    font-size: 8.5pt !important;
+    color: #444444 !important;
+    word-break: break-all;
+  }
+
+  code {
+    display: inline-block !important;
+    border: 1px solid #bbb !important;
+    color: #222 !important;
+    background-color: #f6f6f6 !important;
+    padding: 1.5px 5px !important;
+    margin: 1.5px 1px !important;
+    font-size: 8.5pt !important;
+    border-radius: 3px !important;
+  }
+
+  /* 7. Footer */
+  .footer-container {
+    margin-top: 15pt !important;
+    padding-top: 8pt !important;
+    border-top: 1px solid #e0e0e0 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .footer-container p {
+    text-align: center !important;
+    font-size: 8.5pt !important;
+    color: #666666 !important;
   }
 }
