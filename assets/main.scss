@@ -31,6 +31,7 @@
   height: 130px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 15%;
   border: 3px solid rgba(255, 255, 255, 0.15);
   display: block;
 }
@@ -327,6 +328,7 @@ body.light-mode .profile-avatar {
     border: 2px solid #ccc !important;
     display: block !important;
     object-fit: cover !important;
+    object-position: 50% 15% !important;
   }
 
   .profile-text {
