@@ -14,7 +14,7 @@ description:
 # email_title: Email (Email title override)
 phone: (976) 462 5252
 # phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
+website: https://sanchez.ph
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -46,7 +46,7 @@ about_title: Profile # (Use this to override about section title)
 about_content: | # this will include new lines to allow paragraphs
   **Head of IT, Data Protection Officer (DPO) & Technologist** with over 20 years of combined development experience in the industry, including over 10 years of specialized ERP experience across both real estate and maritime transport, and more than 5 years of dedicated data privacy expertise. Currently leading IT for **Avega Bros Integrated Shipping**, managing a self-hosted **Docker** production cloud infrastructure and shipboard IoT for a fleet of **50+ vessels**. Highly experienced in digital transformation, privacy engineering, AI-assisted workflows, and building systems that work in rugged environments—from air-conditioned server rooms to the open sea.  
   
-  Read my technical deep-dives at [blog.sanchez.ph](https://blog.sanchez.ph).
+  Explore my portfolio of software solutions at [sanchez.ph](https://sanchez.ph) and technical deep-dives at [blog.sanchez.ph](https://blog.sanchez.ph).
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
