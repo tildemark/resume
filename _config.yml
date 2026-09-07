@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Alfredo Sanchez Jr.
 title: Head of IT & DPO
-avatar: https://cdn.sanchez.ph/asanchez-portrait.webp
+avatar: /images/asanchez-512.webp
 email: derf@sanchez.ph
 description: 
 # email_title: Email (Email title override)
@@ -130,7 +130,7 @@ content:
       - layout: left
         title: T.R.A.C.E. (Total Resource Asset & Compliance Engine)
         sub_title: Lead Architect & Full Stack Developer
-        link: trace.sanchezz.ph
+        link: trace.sanchez.ph
         description: |
           An enterprise-grade, on-premises asset management and compliance ecosystem engineered for luxury hospitality and resort operations.
           * **Features:** Offline-first mobile audit/scanning (QR & RFID), GS1 SGTIN-96 tagging, legacy MSSQL migration engine with SSE streaming, IoT predictive maintenance, PMS/ERP integration, and a SHA-256 cryptographic audit ledger (ISO 55001/27001 readiness).
